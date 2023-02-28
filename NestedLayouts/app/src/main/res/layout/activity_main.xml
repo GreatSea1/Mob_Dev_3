@@ -11,28 +11,29 @@
         android:id="@+id/upper"
         android:layout_width="match_parent"
         android:layout_height="80px"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        tools:ignore="ExtraText">
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView1_1"
+            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="TextView" />
+            android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView1_2"
+            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="TextView" />
+            android:layout_weight="1" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView1_3"
+            android:gravity="center"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="TextView" />
+            android:layout_weight="1" />
     </LinearLayout>
 
     <LinearLayout
@@ -43,63 +44,72 @@
         android:visibility="visible">
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView2_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:gravity="center" />
 
         <TextView
-            android:id="@+id/textView6"
+            android:id="@+id/textView2_2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
-
+            android:gravity="center"
+            android:layout_height="wrap_content" />
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/textView2_3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+
     </LinearLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/lower"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="471dp">
 
         <TextView
-            android:id="@+id/textView8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
+            android:id="@+id/textView3_1"
+            android:layout_width="77dp"
+            android:layout_height="20dp"
+            android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.637"
+            app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.447" />
+            app:layout_constraintVertical_bias="0.229" />
 
         <TextView
-            android:id="@+id/textView9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
+            android:id="@+id/textView3_2"
+            android:layout_width="77dp"
+            android:layout_height="20dp"
+            android:gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <TextView
-            android:id="@+id/textView10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="TextView"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.365"
+            app:layout_constraintHorizontal_bias="0.314"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.447" />
+            app:layout_constraintVertical_bias="0.123" />
+
+        <TextView
+            android:id="@+id/textView3_3"
+            android:layout_width="77dp"
+            android:layout_height="20dp"
+            android:gravity="center"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.661"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.122" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-</LinearLayout>
+    <Button
+        android:id="@+id/low_button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Button"
+        />
 
+</LinearLayout>
